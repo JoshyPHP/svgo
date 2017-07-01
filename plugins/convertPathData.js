@@ -334,7 +334,6 @@ function filters(path, params) {
                             radius: circle.radius
                         }
                     );
-                    if (angle > Math.PI) arc.data[3] = 1;
                     hasPrev = 1;
                 }
 
